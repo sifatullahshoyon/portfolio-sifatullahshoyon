@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import NavLink from "./nav-link";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/images/sifat-ullah-shoyon-porfolio-logo.png";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,30 +25,37 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about", label: "About" },
+    { href: "#about", label: "About Me" },
     { href: "#skills", label: "Skills" },
     { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" },
+    { href: "#contact", label: "Contact Me" },
+    { href: "#blgo", label: "Blog" },
   ];
 
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-gray-900/70 backdrop-blur-md border-b border-gray-800/50 shadow-lg"
+          ? "bg-[#0e051a] backdrop-blur-md border-b border-gray-800/50 shadow-lg"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a
-              href="#"
-              className=" font-bold text-xl bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-black"
-            >
-              Sifat
-            </a>
+            <Link href="/">
+              <Image
+                src={logo}
+                alt="logo"
+                width={200}
+                height={200}
+                placeholder="blur"
+                loading="lazy"
+                blurDataURL="all"
+                className="hover:scale-105 transition-transform duration-200"
+              />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}

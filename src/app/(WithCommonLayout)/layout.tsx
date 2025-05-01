@@ -1,9 +1,9 @@
-// import Header from "@/components/modules/Home/Header";
+import Header from "@/components/modules/Home/Header";
 
 const CommonLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <main className="min-h-screen">{children}</main>
       {/* <Footer /> */}
     </>
