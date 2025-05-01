@@ -38,3 +38,7 @@
     transform: rotate(90deg);
   }
 }
+
+.color {
+  color: rgb(23, 21, 31);
+}

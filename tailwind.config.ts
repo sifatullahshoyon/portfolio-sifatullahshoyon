@@ -71,7 +71,7 @@
 
 // export default config;
 
-import defaultTheme from "tailwindcss/defaultTheme";
+// import defaultTheme from "tailwindcss/defaultTheme";
 /** @type {import('tailwindcss').Config} */
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -88,10 +88,6 @@ export default {
         primary: "#6000fa",
         secondary: "#bdacff",
         accent: "#1a1a1a",
-      },
-      fontFamily: {
-        poppins: ["var(--font-poppins)", ...defaultTheme.fontFamily.sans],
-        openSans: ["var(--font-open-sans)", ...defaultTheme.fontFamily.sans],
       },
     },
   },
