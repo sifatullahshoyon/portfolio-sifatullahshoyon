@@ -1,3 +1,4 @@
+import Footer from "@/components/modules/Home/Footer";
 import Header from "@/components/modules/Home/Header";
 
 const CommonLayout = ({ children }: { children: React.ReactNode }) => {
@@ -5,7 +6,7 @@ const CommonLayout = ({ children }: { children: React.ReactNode }) => {
     <>
       <Header />
       <main className="min-h-screen">{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

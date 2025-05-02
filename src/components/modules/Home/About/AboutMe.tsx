@@ -1,15 +1,16 @@
 import DualTextEffect from "@/components/shared/DualTextEffect";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import { TextLoop } from "../../../../../components/motion-primitives/text-loop";
 import myImg from "@/assets/images/about.png";
-import {
-  FaLinkedin,
-  FaSquareFacebook,
-  FaSquareGithub,
-  FaSquareInstagram,
-  FaSquareXTwitter,
-} from "react-icons/fa6";
+import SocialLinks from "@/components/shared/SocialLinks";
+// import {
+//   FaLinkedin,
+//   FaSquareFacebook,
+//   FaSquareGithub,
+//   FaSquareInstagram,
+//   FaSquareXTwitter,
+// } from "react-icons/fa6";
 
 const AboutMe = () => {
   return (
@@ -93,7 +94,7 @@ const AboutMe = () => {
               </p>
             </div>
             {/* Social Links */}
-            <div className="flex justify-center lg:justify-start gap-4 mt-6">
+            {/* <div className="flex justify-center lg:justify-start gap-4 mt-6">
               <Link
                 href="https://www.facebook.com/SifatUllahShoyon"
                 target="_blank"
@@ -129,7 +130,8 @@ const AboutMe = () => {
               >
                 <FaSquareGithub size={25} />
               </Link>
-            </div>
+            </div> */}
+            <SocialLinks />
           </div>
         </div>
         {/* end info section */}

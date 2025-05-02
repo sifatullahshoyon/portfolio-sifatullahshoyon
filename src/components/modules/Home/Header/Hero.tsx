@@ -2,6 +2,7 @@ import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import { ExternalLink, Send } from "lucide-react";
 import Link from "next/link";
 import { TextEffect } from "../../../../../components/motion-primitives/text-effect";
+import { Meteors } from "@/components/magicui/meteors";
 
 const Hero = () => {
   return (
@@ -42,6 +43,7 @@ const Hero = () => {
           </span>
         </ShimmerButton>
       </div>
+      <Meteors number={20} />
     </div>
   );
 };
