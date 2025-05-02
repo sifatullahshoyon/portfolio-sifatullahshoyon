@@ -11,13 +11,17 @@ const Hero = () => {
           Hi, I&apos;m Sifat Ullah Shoyon
         </TextEffect>
       </h1>
-      <p className="text-sm md:text-lg  font-open-sans text-balance pt-6 pb-10 text-accent">
+      <p
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="text-sm md:text-lg  font-open-sans text-balance pt-6 pb-10 text-accent"
+      >
         A Full Stack Developer with expertise in Typescript, Express.js,
         Mongoose & Next.js, building <br /> secure and impactful web
         applications. My work spans from front-end designs to robust back-{" "}
         <br /> end systems.
       </p>
-      <div className="flex gap-4">
+      <div data-aos="fade-up" data-aos-duration="1000" className="flex gap-4">
         <Link
           href="https://drive.google.com/file/d/1FoiDLHETnPeHPw5Uwr7xxkO9cPpbAfOb/view?usp=sharing"
           target="_blank"

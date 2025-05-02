@@ -21,8 +21,8 @@ const AboutMe = () => {
         {/* start text section */}
         <div
           className="flex flex-col items-center justify-center space-y-8 text-center"
-          data-aos="fade-up" // Animation on scroll
-          data-aos-duration="1000" // Animation duration
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
           {/* Dual Text Effect */}
           <DualTextEffect
@@ -39,7 +39,11 @@ const AboutMe = () => {
         {/* start info section */}
         <div className="flex flex-col lg:flex-row flex-wrap mt-8 justify-center lg:justify-around items-center w-full gap-8">
           {/* Image Section */}
-          <div className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 flex justify-center">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 flex justify-center"
+          >
             <Image
               src={myImg}
               alt="about img"
@@ -53,7 +57,11 @@ const AboutMe = () => {
           </div>
 
           {/* Text Section */}
-          <div className="w-full sm:w-3/4 md:w-1/2 lg:w-2/4 text-center lg:text-left">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            className="w-full sm:w-3/4 md:w-1/2 lg:w-2/4 text-center lg:text-left"
+          >
             <div>
               <h1 className="text-xl sm:text-2xl md:text-3xl text-[#ffffff] font-semibold pb-2 font-poppins">
                 Sifat Ullah Shoyon
