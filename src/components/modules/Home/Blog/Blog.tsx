@@ -12,7 +12,10 @@ const Blog = () => {
   const pathName = usePathname();
 
   return (
-    <section className="relative mt-12 flex flex-col items-center justify-center overflow-hidden bg-[#0e051a] text-white py-12">
+    <section
+      id="blog"
+      className="relative mt-12 flex flex-col items-center justify-center overflow-hidden bg-[#0e051a] text-white py-12"
+    >
       {/* Purple glow effect - bottom left */}
       <div className="absolute top-36 left-0 w-96 h-96 bg-purple-500 opacity-40 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
 

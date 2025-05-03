@@ -17,7 +17,7 @@ const Hero = () => {
         data-aos-duration="1000"
         className="text-sm md:text-lg leading-relaxed font-open-sans text-balance pt-6 pb-10 text-accent"
       >
-        A Full Stack Developer with expertise in Typescript, Express.js,
+        A MERN Stack Developer with expertise in Typescript, Express.js,
         Mongoose & Next.js, building <br /> secure and impactful web
         applications. My work spans from front-end designs to robust back-{" "}
         <br /> end systems.
