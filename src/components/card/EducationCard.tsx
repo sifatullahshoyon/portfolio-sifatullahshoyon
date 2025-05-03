@@ -59,7 +59,7 @@ const cards = [
     period: "2024-2025",
     description: "Focused on strategic management and financial analysis.",
     icon: GraduationCap,
-    height: "h-[560px]",
+    height: "h-[570px]",
     delay: 200,
     achievements: {
       gpa: "N/A",
@@ -79,7 +79,7 @@ const cards = [
 
 const EducationCard = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap items-center md:items-end justify-center gap-6 w-full  mx-auto mt-8 mb-2">
+    <div className="flex flex-col md:flex-row flex-wrap items-center md:items-end justify-center gap-6 w-full overflow-hidden  mx-auto mt-8 mb-2">
       {cards.map((card) => (
         <EducationCards
           key={card.id}

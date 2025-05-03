@@ -4,7 +4,10 @@ import { SkillCard } from "./SkillCard";
 
 const Skills = () => {
   return (
-    <section className="relative w-full mt-12 flex items-center justify-center bg-[#0e051a] text-white">
+    <section
+      id="skills"
+      className="relative w-full mt-12 flex items-center justify-center bg-[#0e051a] text-white"
+    >
       {/* container */}
       <div className="container px-4 md:px-6">
         {/* start text section */}

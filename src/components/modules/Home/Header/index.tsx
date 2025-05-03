@@ -3,7 +3,10 @@ import Hero from "./Hero";
 
 export default function Header() {
   return (
-    <section className="relative h-[80vh] flex flex-col justify-center items-center bg-[#0e051a] text-white overflow-hidden">
+    <section
+      id="home"
+      className="relative h-[80vh] flex flex-col justify-center items-center bg-[#0e051a] text-white overflow-hidden"
+    >
       {/* Grid Background */}
       <div
         className="absolute inset-0 opacity-50"

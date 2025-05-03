@@ -6,8 +6,8 @@ import { Meteors } from "@/components/magicui/meteors";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center space-y-4">
-      <h1 className="text-3xl md:text-6xl lg:text-[80px] font-bold font-poppins text-balance">
+    <section className="flex flex-col items-center justify-center text-center space-y-4">
+      <h1 className="text-4xl md:text-6xl lg:text-[80px] font-bold font-poppins text-balance">
         <TextEffect per="char" preset="fade">
           Hi, I&apos;m Sifat Ullah Shoyon
         </TextEffect>
@@ -15,7 +15,7 @@ const Hero = () => {
       <p
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="text-sm md:text-lg  font-open-sans text-balance pt-6 pb-10 text-accent"
+        className="text-sm md:text-lg leading-relaxed font-open-sans text-balance pt-6 pb-10 text-accent"
       >
         A Full Stack Developer with expertise in Typescript, Express.js,
         Mongoose & Next.js, building <br /> secure and impactful web
@@ -44,7 +44,7 @@ const Hero = () => {
         </ShimmerButton>
       </div>
       <Meteors number={20} />
-    </div>
+    </section>
   );
 };
 
