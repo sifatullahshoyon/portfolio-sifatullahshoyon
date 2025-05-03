@@ -6,7 +6,7 @@ const PoweredBy = () => {
   return (
     <section className="relative w-full mt-12 flex flex-col items-center justify-center bg-[#0e051a] text-white bg-[radial-gradient(circle,rgba(255,255,255,0.2)_1px,transparent_1px)] bg-[length:20px_20px] mask-image-[radial-gradient(300px_circle_at_center,white,transparent)] -webkit-mask-image-[radial-gradient(300px_circle_at_center,white,transparent)]">
       {/* Purple Glow Effect */}
-      <div className="absolute inset-0 m-auto w-96 h-96 bg-purple-500 opacity-40 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 m-auto w-96 h-96 bg-purple-500 opacity-20 rounded-full blur-3xl"></div>
 
       {/* Start Text Section */}
       <div

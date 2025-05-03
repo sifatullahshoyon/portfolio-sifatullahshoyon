@@ -9,7 +9,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative flex flex-col items-center justify-center overflow-hidden bg-[#0e051a] text-white py-12">
+    <footer className="relative mt-12 flex flex-col items-center justify-center overflow-hidden bg-[#0e051a] text-white py-12">
       {/* Dot Pattern Background */}
       <DotPattern
         width={20}
