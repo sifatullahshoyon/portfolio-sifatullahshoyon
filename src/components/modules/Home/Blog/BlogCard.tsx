@@ -6,10 +6,11 @@ import {
   CardContent,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import ProfilePic from "@/components/shared/profilePic";
+
 import { ShinyButton } from "@/components/magicui/shiny-button";
 import Link from "next/link";
 import { AnimatedList } from "@/components/magicui/animated-list";
+import ProfilePic from "@/components/shared/ProfilePic";
 
 export default function BlogCard() {
   const posts = [
