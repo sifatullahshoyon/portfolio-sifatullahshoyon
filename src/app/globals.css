@@ -207,12 +207,15 @@ h3,
 h4,
 h5,
 h6,
+label,
 a {
   font-family: var(--font-poppins);
 }
 p,
 span,
-button {
+button,
+input,
+textarea {
   font-family: var(--font-open-sans);
 }
 

@@ -9,7 +9,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative mt-12 flex flex-col items-center justify-center overflow-hidden bg-[#0e051a] text-white py-12">
+    <footer className="relative  flex flex-col items-center justify-center overflow-hidden bg-[#0e051a] text-white py-12">
       {/* Dot Pattern Background */}
       <DotPattern
         width={20}
@@ -58,13 +58,16 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white">Quick Links</h4>
             <ul className="mt-6 space-y-3 text-sm text-[#A4A4A4]">
               <li>
-                <Link href="/" className="hover:text-white transition-colors">
+                <Link
+                  href="#home"
+                  className="hover:text-white transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/about"
+                  href="#about"
                   className="hover:text-white transition-colors"
                 >
                   About Me
@@ -72,7 +75,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/skills"
+                  href="#skills"
                   className="hover:text-white transition-colors"
                 >
                   Skills
@@ -80,7 +83,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/projects"
+                  href="#projects"
                   className="hover:text-white transition-colors"
                 >
                   Projects
@@ -88,7 +91,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="#contact"
                   className="hover:text-white transition-colors"
                 >
                   Contact Me

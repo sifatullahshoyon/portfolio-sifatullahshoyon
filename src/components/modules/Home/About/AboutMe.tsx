@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <section
       id="about"
-      className="relative w-full mt-12 flex items-center justify-center bg-[#0e051a] text-white"
+      className="relative w-full mt-12 flex items-center justify-center bg-[#0e051a] text-white overflow-hidden"
     >
       {/* Purple glow effect - bottom left */}
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500 opacity-40 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>

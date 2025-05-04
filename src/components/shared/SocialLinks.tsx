@@ -10,7 +10,7 @@ import {
 
 const SocialLinks = () => {
   return (
-    <div className="flex justify-center lg:justify-start gap-4 mt-6">
+    <div className="flex justify-center lg:justify-start gap-4 mt-6 flex-wrap">
       <Link
         href="https://www.facebook.com/SifatUllahShoyon"
         target="_blank"
