@@ -19,7 +19,7 @@ const Skills = () => {
           {/* Dual Text Effect */}
           <DualTextEffect
             largeText="SKILLS"
-            smallText="Skill"
+            smallText="Skills"
             largeTextColor="text-[#3a2a5e18]"
             smallTextColor="text-white"
             largeTextSize="text-[60px] md:text-[100px] lg:text-[120px]"

@@ -4,6 +4,8 @@ import Link from "next/link";
 import { TextEffect } from "../../../../../components/motion-primitives/text-effect";
 import { Meteors } from "@/components/magicui/meteors";
 
+import HighLightText from "@/components/ui/hero-highlight";
+
 const Hero = () => {
   return (
     <section className="flex flex-col items-center justify-center text-center space-y-4">
@@ -15,12 +17,13 @@ const Hero = () => {
       <p
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="text-sm md:text-lg leading-relaxed font-open-sans text-balance pt-6 pb-10 text-accent"
+        className="text-sm md:text-lg leading-relaxed font-open-sans text-balance pt-6 pb-10 text-[#A4A4A4]"
       >
-        A MERN Stack Developer with expertise in Typescript, Express.js,
-        Mongoose & Next.js, building <br /> secure and impactful web
-        applications. My work spans from front-end designs to robust back-{" "}
-        <br /> end systems.
+        A MERN Stack Developer specializing in{" "}
+        <HighLightText>TypeScript, Next.js, and Node.js</HighLightText>
+        – building <br /> secure, high-performance web applications with clean
+        architecture that bridges intuitive user interfaces <br /> with scalable
+        backend systems
       </p>
       <div data-aos="fade-up" data-aos-duration="1000" className="flex gap-4">
         <Link

@@ -97,8 +97,10 @@ const ContactForm = () => {
             </div>
 
             <Button
-              type="submit"
-              className="w-full bg-gradient-to-r from-[#6000fa] to-[#22014d] transition-all cursor-pointer text-white"
+              className="w-full bg-gradient-to-r from-[#6000fa] to-[#9850ff]
+            hover:from-[#4d00c7] hover:to-[#7e3af2]
+            text-white font-medium py-3 px-6 rounded-lg
+            transition-colors duration-300"
             >
               Send Message
             </Button>
