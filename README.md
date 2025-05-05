@@ -1,6 +1,6 @@
 # [SIFAT ULLAH SHOYON] - Professional Portfolio
 
-![Portfolio Screenshot](https://via.placeholder.com/800x400?text=Portfolio+Preview)
+![Portfolio Screenshot](https://res.cloudinary.com/dowpaz8fo/image/upload/v1746475269/sfiat_ullah_shoyon_portfolio_gwd6qh.png)
 
 A modern, responsive portfolio website showcasing my skills, projects, and professional journey.
 
@@ -33,6 +33,6 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
 - **Frontend**: Next.js / Shadcn Ui /
 - **Styling**: Tailwind CSS / CSS Modules
 - **Animation**: Framer Motion
-- **Backend**: Node.js / Express (if applicable)
+- **Backend**: Node.js / Express.js
 - **Database**: MongoDB
 - **Deployment**: Vercel

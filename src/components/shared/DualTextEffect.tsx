@@ -1,20 +1,3 @@
-// import React from "react";
-
-// const DualTextEffect = ({ largeText, smallText }) => {
-//   return (
-//     <div className="relative inline-block ">
-//       <span className="text-[100px] font-bold text-[#bdacff18] dark:text-gray-600">
-//         {largeText}
-//       </span>
-//       <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl font-bold text-[#ffffff] dark:text-gray-200">
-//         {smallText}
-//       </span>
-//     </div>
-//   );
-// };
-
-// export default DualTextEffect;
-
 import React from "react";
 
 interface DualTextEffectProps {

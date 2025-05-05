@@ -79,7 +79,11 @@ const cards = [
 
 const EducationCard = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap items-center md:items-end justify-center gap-6 w-full overflow-hidden  mx-auto mt-8 mb-2">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="flex flex-col md:flex-row flex-wrap items-center md:items-end justify-center gap-6 w-full overflow-hidden  mx-auto mt-8 mb-2"
+    >
       {cards.map((card) => (
         <EducationCards
           key={card.id}
