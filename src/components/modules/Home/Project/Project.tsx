@@ -2,7 +2,7 @@ import DualTextEffect from "@/components/shared/DualTextEffect";
 import React from "react";
 import { ProjectTabs } from "../../ProjectTabs/ProjectTabs";
 
-const Project = () => {
+const Project = async () => {
   return (
     <section
       id="projects"

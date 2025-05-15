@@ -17,10 +17,11 @@ import { SiAxios, SiExpress, SiNextdotjs, SiReactrouter } from "react-icons/si";
 import { BiLogoMongodb, BiLogoTypescript } from "react-icons/bi";
 import { TbBrandRedux } from "react-icons/tb";
 import { TextShimmer } from "../../../../components/motion-primitives/text-shimmer";
+import { useRouter } from "next/navigation";
 
 const projects = [
   {
-    id: 1,
+    id: "1",
     title: "Papyrus",
     description:
       "Papyrus is an e-commerce platform for stationery products. It allows users to browse a wide range of stationery items, add them to cart, and make secure payments.",
@@ -38,7 +39,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: "2",
     title: "Hand To Hand",
     description:
       "HandToHand web application a modern, user-friendly platform designed to make buying and selling used products seamless, secure, and efficient.",
@@ -56,7 +57,7 @@ const projects = [
     ],
   },
   {
-    id: 3,
+    id: "3",
     title: "Tech Hiem",
     description:
       "Tech Heim is an innovative online store that offers a diverse selection of digital gadgets, available for purchase in both cash and installment options. Embodying the motto. '",
@@ -78,6 +79,7 @@ const projects = [
 export function ProjectTabs() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [isLoading, setIsLoading] = useState(false);
+  const router = useRouter();
 
   const handleTabChange = (tab: string) => {
     setIsLoading(true);
@@ -93,6 +95,10 @@ export function ProjectTabs() {
     selectedCategory === "all"
       ? projects
       : projects.filter((project) => project.category === selectedCategory);
+
+  const handleClick = (id: string) => {
+    router.push(`/${id}`);
+  };
 
   return (
     <Tabs defaultValue="all" className="w-full mt-8 mb-2 mx-auto">
@@ -156,7 +162,10 @@ export function ProjectTabs() {
                   key={project.id}
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: project.id * 0.1 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: Number(project.id) * 0.1,
+                  }}
                 >
                   <Card className="relative mx-auto bg-gradient-to-b from-[#1a0c2e] to-[#160a26] shadow-lg overflow-hidden border border-purple-900/20 hover:scale-[1.02] hover:shadow-purple-900/40 transition-transform max-w-[385px]">
                     <CardHeader className="p-4">
@@ -172,7 +181,10 @@ export function ProjectTabs() {
                     </CardHeader>
                     <CardContent className="">
                       <div className="flex justify-between items-center">
-                        <h3 className="text-xl font-semibold text-[#ffffff] mb-2">
+                        <h3
+                          onClick={() => handleClick(project.id)}
+                          className="text-xl font-semibold text-[#ffffff] mb-2 cursor-pointer"
+                        >
                           {project.title}
                         </h3>
                         <Link

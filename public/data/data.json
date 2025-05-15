@@ -1,0 +1,85 @@
+[
+  {
+    "_id": "1",
+    "image": [
+      "https://res.cloudinary.com/dowpaz8fo/image/upload/v1747238001/paypers_oicglc.png",
+      "https://res.cloudinary.com/dowpaz8fo/image/upload/v1747238001/paypers_oicglc.png"
+    ],
+    "title": "Tech Heim - Online Gadget Shop",
+    "description": "Tech Heim একটি সম্পূর্ণ ফিচারযুক্ত অনলাইন ই-কমার্স সাইট যেখানে ইউজাররা ইলেকট্রনিক প্রোডাক্ট ব্রাউজ, অর্ডার এবং পেমেন্ট করতে পারে।",
+    "coreFeature": [
+      "User authentication (JWT & Firebase)",
+      "Add to cart and Checkout",
+      "Payment system integration with SSLCommerz",
+      "Dashboard for admin and user with dynamic route protection"
+    ],
+    "technology": [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "SSLCommerz"
+    ],
+    "projectChallengeFace": "Dashboard-এর secure access, dynamic role-based routes, এবং একাধিক user type handle করা একটি বড় চ্যালেঞ্জ ছিল।",
+    "liveLink": "https://techheim.example.com",
+    "githubClient": "https://github.com/username/techheim-client",
+    "githubServer": "https://github.com/username/techheim-server",
+    "projectFeaturePlane": "ভবিষ্যতে Wishlist ফিচার, Admin Analytics Dashboard এবং AI-based recommendation সিস্টেম যুক্ত করার পরিকল্পনা রয়েছে।"
+  },
+  {
+    "_id": "2",
+    "image": [
+      "https://res.cloudinary.com/dowpaz8fo/image/upload/v1747238001/paypers_oicglc.png",
+      "https://res.cloudinary.com/dowpaz8fo/image/upload/v1747238001/paypers_oicglc.png"
+    ],
+    "title": "Car Doctor Pro - Car Service Website",
+    "description": "Car Doctor Pro হলো একটি কার সার্ভিস বুকিং ওয়েব অ্যাপ্লিকেশন যেখানে ইউজাররা সার্ভিস বাছাই করে বুক করতে পারে ও অর্ডার ট্র্যাক করতে পারে।",
+    "coreFeature": [
+      "Authentication with Firebase",
+      "Private routes and dynamic routing",
+      "Service booking and order management",
+      "User dashboard with order history"
+    ],
+    "technology": [
+      "Next.js",
+      "Tailwind CSS",
+      "Firebase",
+      "Express.js",
+      "MongoDB"
+    ],
+    "projectChallengeFace": "Dynamic routing ও প্রোটেক্টেড পেজ ম্যানেজমেন্ট কঠিন ছিল, বিশেষ করে Next.js-এর Server Side Rendering এর সাথে।",
+    "liveLink": "https://cardoctor.example.com",
+    "githubClient": "https://github.com/username/cardoc-client",
+    "githubServer": "https://github.com/username/cardoc-server",
+    "projectFeaturePlane": "পরবর্তী ধাপে Google Calendar Integration এবং Notification System যুক্ত করার পরিকল্পনা আছে।"
+  },
+  {
+    "_id": "3",
+    "image": [
+      "https://res.cloudinary.com/dowpaz8fo/image/upload/v1747238001/paypers_oicglc.png",
+      "https://res.cloudinary.com/dowpaz8fo/image/upload/v1747238001/paypers_oicglc.png"
+    ],
+    "title": "Toy Marketplace - Kids Toy E-commerce",
+    "description": "এই ওয়েবসাইটে ইউজাররা বিভিন্ন ধরনের খেলনা সার্চ, ফিল্টার ও কিনতে পারে। ডায়নামিক ড্যাশবোর্ড এবং রোল-বেইজড ফিচার অন্তর্ভুক্ত।",
+    "coreFeature": [
+      "User registration & login",
+      "Role based access for admin and seller",
+      "Product listing, update, delete features",
+      "Add to cart and responsive checkout system"
+    ],
+    "technology": [
+      "React.js",
+      "Tailwind CSS",
+      "Firebase",
+      "Express.js",
+      "MongoDB"
+    ],
+    "projectChallengeFace": "Seller ও Admin এর আলাদা রোল ভিত্তিক ফিচার হ্যান্ডেল করা, এবং cart system এর validation ছিল সবচেয়ে চ্যালেঞ্জিং।",
+    "liveLink": "https://toymarket.example.com",
+    "githubClient": "https://github.com/username/toy-market-client",
+    "githubServer": "https://github.com/username/toy-market-server",
+    "projectFeaturePlane": "ভবিষ্যতে real-time chat এবং order tracking system যুক্ত করার পরিকল্পনা আছে।"
+  }
+]
