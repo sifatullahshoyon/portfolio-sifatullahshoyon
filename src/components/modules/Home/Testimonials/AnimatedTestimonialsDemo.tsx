@@ -18,6 +18,14 @@ export function AnimatedTestimonialsDemo() {
       link: "https://drive.google.com/file/d/1mU3P2vocpPcNEIx3rcwRqHOkfQZceX5o/view?usp=sharing",
       src: "https://res.cloudinary.com/dowpaz8fo/image/upload/v1746422484/resume_building_zyonti.jpg",
     },
+    {
+      quote:
+        "Alhamdulillah! I’ve completed the NUSDF IT Career Mastermind 2025 session and received a certificate of participation. 🌟 It was a truly inspiring experience where I learned the importance of continuous learning, personal branding, and the 3S formula (Success, Strength, Situation). I was also surprised to discover how IT career opportunities go beyond just development — even sectors like aviation have a growing demand for IT skills. Grateful for the knowledge and motivation this session gave me! 🚀",
+      name: "It Career Mastermind by NUSDF",
+      designation: "By NUSDF Bangladesh (Feb, 2025)",
+      link: "https://drive.google.com/file/d/1hvvjlwt_MOEtRD_pZK_L2PmggfYWPJ3B/view?usp=sharing",
+      src: "https://res.cloudinary.com/dowpaz8fo/image/upload/v1747504726/It_Career_Mastermind_by_NUSDF_ozfop8.png",
+    },
 
     //   {
     //     quote:
