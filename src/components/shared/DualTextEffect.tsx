@@ -21,7 +21,7 @@ const DualTextEffect: React.FC<DualTextEffectProps> = ({
     <div className="relative inline-block">
       {/* Large Background Text */}
       <h1
-        className={`${largeTextSize} font-bold ${largeTextColor} dark:text-gray-600 uppercase`}
+        className={`${largeTextSize} font-bold ${largeTextColor} dark:text-gray-600 uppercase px-2`}
       >
         {largeText}
       </h1>

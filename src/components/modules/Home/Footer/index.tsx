@@ -9,7 +9,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative  flex flex-col items-center justify-center overflow-hidden bg-[#0e051a] text-white py-12">
+    <footer className="relative flex flex-col items-center justify-center overflow-hidden bg-[#0e051a] text-white py-12">
       {/* Dot Pattern Background */}
       <DotPattern
         width={20}
@@ -23,8 +23,8 @@ const Footer = () => {
       />
 
       {/* Footer Content */}
-      <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
+      <div className="container px-4 md:px-6 lg:px-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-start mx-auto justify-center lg:w-[85%] ">
           {/* Logo Section */}
           <div
             data-aos="fade-right"
@@ -43,7 +43,7 @@ const Footer = () => {
                 className="hover:scale-105 transition-transform duration-200"
               />
             </Link>
-            <p className=" text-sm text-[#A4A4A4] text-center md:text-left tracking-wide leading-relaxed">
+            <p className="mt-8 text-sm text-[#A4A4A4] text-center md:text-left tracking-wide leading-relaxed">
               Building secure and impactful web applications with modern
               technologies.
             </p>
@@ -132,10 +132,10 @@ const Footer = () => {
         </div>
 
         {/* Divider */}
-        <hr className="my-8 border-gray-700" />
+        <hr className="my-8 border-gray-700 lg:w-[85%] mx-auto" />
 
         {/* Footer Bottom */}
-        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-[#A4A4A4]">
+        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-[#A4A4A4] lg:w-[85%] mx-auto">
           <p>&copy; {currentYear} Sifat Ullah Shoyon. All rights reserved.</p>
           <p>
             Designed with <span className="text-red-500">♥</span> by Sifat Ullah

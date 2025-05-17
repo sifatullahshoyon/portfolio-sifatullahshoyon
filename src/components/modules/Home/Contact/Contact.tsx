@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500 opacity-40 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
 
       {/* Container */}
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 lg:px-16">
         <ContactSection />
       </div>
     </section>

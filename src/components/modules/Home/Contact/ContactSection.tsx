@@ -3,7 +3,7 @@ import ContactInfo from "./ContactInfo";
 
 export default function ContactSection() {
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 ">
+    <div className="py-16 px-4 sm:px-6  ">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div
@@ -20,7 +20,7 @@ export default function ContactSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Left Column - Info Cards */}
 
           <ContactInfo />

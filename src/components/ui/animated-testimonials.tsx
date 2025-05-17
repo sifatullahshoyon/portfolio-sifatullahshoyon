@@ -46,8 +46,8 @@ export const AnimatedTestimonials = ({
   };
   return (
     <>
-      <div className="w-full  md:pb-24 pt-8 pb-6">
-        <div className="relative grid grid-cols-1 md:grid-cols-2 md:gap-20 md:mt-20 mt-8">
+      <div className="w-full mx-auto md:pb-24 pt-8 pb-6 lg:pl-[100px]">
+        <div className="relative grid grid-cols-1 md:grid-cols-2 md:gap-20 md:mt-20 mt-8 justify-end">
           <div>
             <div className="relative h-80 w-full">
               <AnimatePresence>
@@ -87,8 +87,8 @@ export const AnimatedTestimonials = ({
                         <Image
                           src={item.src}
                           alt={item.name}
-                          width={500}
-                          height={600}
+                          width={350}
+                          height={250}
                           draggable={false}
                           className="w-full rounded-2xl  object-center md:h-[350px] h-[250px]"
                         />
@@ -126,7 +126,7 @@ export const AnimatedTestimonials = ({
               <p className="text-sm text-[#bdacff]">
                 {testimonials[active].designation}
               </p>
-              <motion.p className="md:text-base text-sm text-[#A4A4A4] leading-relaxed text-balance mt-8 md:mb-4 dark:text-neutral-300">
+              <motion.p className="md:text-base text-sm text-[#A4A4A4] leading-relaxed text-balance mt-8 md:mb-4 dark:text-neutral-300 text-justify">
                 {testimonials[active].quote.split(" ").map((word, index) => (
                   <motion.span
                     key={index}

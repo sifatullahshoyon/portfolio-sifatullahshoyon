@@ -9,7 +9,7 @@ const Skills = () => {
       className="relative w-full mt-12 flex items-center justify-center bg-[#0e051a] text-white"
     >
       {/* container */}
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 lg:px-16">
         {/* start text section */}
         <div
           className="flex flex-col items-center justify-center space-y-6 text-center"

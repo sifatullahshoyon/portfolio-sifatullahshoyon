@@ -17,7 +17,7 @@ const ProjectDetails = ({
       {/* end project details */}
 
       {/* container */}
-      <div className="container px-4 md:px-6 mx-auto">
+      <div className="container px-4 md:px-6 lg:px-16 mx-auto">
         {matchingData?.map((data) => (
           <ProjectDetailsCart key={data.id} data={data} />
         ))}

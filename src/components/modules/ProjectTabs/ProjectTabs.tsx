@@ -101,7 +101,7 @@ export function ProjectTabs() {
   };
 
   return (
-    <Tabs defaultValue="all" className="w-full mt-8 mb-2 mx-auto">
+    <Tabs defaultValue="all" className=" mt-8 mb-2 mx-auto lg:w-[85%] w-full">
       <TabsList className="grid w-full grid-cols-4 gap-2 bg-gradient-to-b from-[#1a0c2e] to-[#0e051a]">
         {["all", "react", "nextjs", "sql"].map((tab) => (
           <TabsTrigger
@@ -130,7 +130,7 @@ export function ProjectTabs() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}
               >
-                <Card className="relative mx-auto bg-gradient-to-b from-[#1a0c2e] to-[#160a26] shadow-lg overflow-hidden border border-purple-900/20 max-w-[385px] h-[400px]">
+                <Card className="relative mx-auto bg-gradient-to-b from-[#1a0c2e] to-[#160a26] shadow-lg overflow-hidden border border-purple-900/20 max-w-[385px] h-[400px] ">
                   <CardHeader className="p-4">
                     <div className="w-full h-[180px] bg-[#1f102f] rounded-lg animate-pulse"></div>
                   </CardHeader>
@@ -155,7 +155,7 @@ export function ProjectTabs() {
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-6">
             {filteredProjects.length > 0 ? (
               filteredProjects.map((project) => (
                 <motion.div
@@ -167,7 +167,7 @@ export function ProjectTabs() {
                     delay: Number(project.id) * 0.1,
                   }}
                 >
-                  <Card className="relative mx-auto bg-gradient-to-b from-[#1a0c2e] to-[#160a26] shadow-lg overflow-hidden border border-purple-900/20 hover:scale-[1.02] hover:shadow-purple-900/40 transition-transform max-w-[385px]">
+                  <Card className="relative mx-auto bg-gradient-to-b from-[#1a0c2e] to-[#160a26] shadow-lg overflow-hidden border border-purple-900/20 hover:scale-[1.02] hover:shadow-purple-900/40 transition-transform max-w-[385px] mb-4">
                     <CardHeader className="p-4">
                       <Lens zoomFactor={2} lensSize={150} isStatic={false}>
                         <Image

@@ -8,7 +8,7 @@ const Education = () => {
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500 opacity-40 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
 
       {/* container */}
-      <div className="container px-4 md:px-6 relative z-10">
+      <div className="container px-4 md:px-6 lg:px-16 relative z-10">
         {/* start text section */}
         <div
           className="flex flex-col items-center justify-center space-y-6 text-center"
