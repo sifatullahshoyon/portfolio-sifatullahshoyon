@@ -25,7 +25,7 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
   return (
     <div className="px-4 py-10 max-w-7xl mx-auto space-y-12 bg-[#0e051a] text-[#ffffff]">
       {/* Title */}
-      <h1 className="text-4xl font-extrabold text-center text-[#bdacff]">
+      <h1 className="text-4xl font-extrabold text-[#bdacff] text-left">
         {title}
       </h1>
 
@@ -37,6 +37,8 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
           pagination={true}
           mousewheel={true}
           keyboard={true}
+          autoplay={{ delay: 3000, disableOnInteraction: true }}
+          loop={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
           className="mySwiper"
         >

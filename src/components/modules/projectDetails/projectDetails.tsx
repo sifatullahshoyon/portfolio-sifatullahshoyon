@@ -1,8 +1,9 @@
 import React from "react";
-import ProjectDetailsBanner from "./projectDetailsBanner";
+
 import Navbar from "../Home/Header/Navbar/Navbar";
 import ProjectDetailsCart from "./projectDetailsCart";
 import { IProjectDetails } from "@/types/project";
+import { ProjectDetailsBanner } from "./projectDetailsBanner";
 
 const ProjectDetails = ({
   matchingData,
