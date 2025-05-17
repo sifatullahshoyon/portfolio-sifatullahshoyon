@@ -71,22 +71,26 @@ const AboutMe = () => {
               </TextLoop>
             </div>
             <div className="py-6">
-              <p className="text-sm md:text-base  text-[#A4A4A4] font-light font-poppins leading-7 pb-4 text-balance">
-                After more than a year of learning, I have developed a solid
-                foundation in the MERN stack and have experience in building
-                dynamic and scalable applications. In the coming year, my goal
-                is to master modern technologies such as PostgreSQL, Prisma,
-                GraphQL, Docker, and AWS to create secure, efficient, and
-                future-proof solutions that address real-world challenges. I aim
-                to build a strong foundation and increase my versatility by
-                exploring these technologies.
+              <p className="text-sm sm:text-base md:text-lg text-[#A4A4A4] font-light font-poppins leading-7 pb-4 text-balance text-justify">
+                Hi, I’m Sifat Ullah Shoyon, a passionate and purpose-driven MERN
+                Stack Developer from Bangladesh. I enjoy crafting clean,
+                scalable, and user-focused web applications using technologies
+                like React.js, Node.js, Express.js, and MongoDB, while steadily
+                expanding my skills in TypeScript, Next.js, Prisma, and
+                PostgreSQL.
               </p>
-              <p className="text-sm sm:text-base md:text-lg text-[#A4A4A4] font-light font-poppins leading-7 text-balance">
-                Furthermore, I’ll be learning new technologies to stay aligned
-                with the industry trends and demand. Ultimately, I aspire to
-                become a senior software developer with a comprehensive skill
-                set and the confidence to lead projects effectively after 2-4
-                years.
+              <p className="text-sm sm:text-base md:text-lg text-[#A4A4A4] font-light font-poppins leading-7 text-balance pb-4 text-justify">
+                As a lifelong learner, I believe in writing code that not only
+                works—but serves people. Whether it’s building tools that solve
+                real-world problems or contributing to community-based tech, I
+                love blending creativity with logic to make an impact.
+              </p>
+              <p className="text-sm sm:text-base md:text-lg text-[#A4A4A4] font-light font-poppins leading-7 text-balance text-justify">
+                Outside of development, I serve as a Campus Ambassador at NUSDF
+                and a Campus Hero at Programming Hero, where I actively support
+                and mentor fellow learners. I’m also deeply curious about AI,
+                ethical tech, and sustainable development, and dream of
+                launching my own tech-integrated agri-startup someday.
               </p>
             </div>
             {/* Social Links */}
