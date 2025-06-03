@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { IProjectDetails } from "@/types/project";
+import Link from "next/link";
 
 const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
   const {
@@ -84,7 +85,7 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
           {technology.map((tech, index) => (
             <span
               key={index}
-              className="bg-[#1a1a1a] text-[#bdacff] px-3 py-1 rounded-full text-sm shadow"
+              className="bg-purple-900/30 text-purple-300 px-3 py-1 rounded-full text-sm shadow"
             >
               {tech}
             </span>
@@ -108,30 +109,30 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
       <section className="space-y-4">
         <h2 className="text-2xl font-bold text-[#ffffff]">Project Links</h2>
         <div className="flex flex-col sm:flex-row gap-4 text-sm">
-          <a
+          <Link
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#6000fa] hover:bg-[#4a00c4] text-white px-4 py-2 rounded shadow"
+            className="bg-[#6000fa] text-white px-4 py-2 rounded shadow border-0"
           >
             🔗 Live Site
-          </a>
-          <a
+          </Link>
+          <Link
             href={githubClient}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#1a1a1a] hover:bg-[#2b2b2b] text-[#bdacff] px-4 py-2 rounded shadow"
+            className="bg-[#bdacff] text-[#0e051a] px-4 py-2 rounded shadow"
           >
             💻 GitHub Client
-          </a>
-          <a
+          </Link>
+          <Link
             href={githubServer}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#1a1a1a] hover:bg-[#2b2b2b] text-[#bdacff] px-4 py-2 rounded shadow"
+            className="bg-[#bdacff] text-[#0e051a] px-4 py-2 rounded shadow"
           >
-            🔌 GitHub Server
-          </a>
+            🗄️ GitHub Server
+          </Link>
         </div>
       </section>
     </div>
