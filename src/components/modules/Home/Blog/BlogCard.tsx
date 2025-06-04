@@ -49,7 +49,7 @@ export default function BlogCard() {
     <div
       data-aos="fade-right"
       data-aos-duration="1000"
-      className="container mx-auto  px-4 py-8 max-w-4xl relative flex  w-full flex-col overflow-hidden"
+      className="container   px-4 py-8 max-w-4xl relative flex  w-full flex-col overflow-hidden"
     >
       <AnimatedList>
         <div className="space-y-8">

@@ -24,9 +24,9 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
   } = data;
 
   return (
-    <div className="px-4 py-10 max-w-7xl mx-auto space-y-12 bg-[#0e051a] text-[#ffffff]">
+    <div className="relative px-4 py-10 max-w-7xl mx-auto space-y-12 bg-[#0e051a] text-[#ffffff]">
       {/* Title */}
-      <h1 className="text-4xl font-extrabold text-[#bdacff] text-left">
+      <h1 className="text-4xl font-extrabold text-[#bdacff] text-left lg:pl-4">
         {title}
       </h1>
 
@@ -59,7 +59,7 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
       </div>
 
       {/* Description */}
-      <section className="space-y-3">
+      <section className="space-y-3 lg:pl-4">
         <h2 className="text-2xl font-bold text-[#ffffff]">
           Project Description
         </h2>
@@ -69,7 +69,7 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
       </section>
 
       {/* Core Features */}
-      <section className="space-y-3">
+      <section className="space-y-3 lg:pl-4">
         <h2 className="text-2xl font-bold text-[#ffffff]">Core Features</h2>
         <ul className="list-disc list-inside text-[#A4A4A4] space-y-1">
           {coreFeature.map((feature, index) => (
@@ -79,7 +79,7 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
       </section>
 
       {/* Technologies */}
-      <section className="space-y-3">
+      <section className="space-y-3 lg:pl-4">
         <h2 className="text-2xl font-bold text-[#ffffff]">Technologies Used</h2>
         <div className="flex flex-wrap gap-2">
           {technology.map((tech, index) => (
@@ -94,26 +94,26 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
       </section>
 
       {/* Challenges */}
-      <section className="space-y-3">
+      <section className="space-y-3 lg:pl-4">
         <h2 className="text-2xl font-bold text-[#ffffff]">Challenge Faced</h2>
         <p className="text-[#A4A4A4] leading-relaxed">{projectChallengeFace}</p>
       </section>
 
       {/* Future Plan */}
-      <section className="space-y-3">
+      <section className="space-y-3 lg:pl-4">
         <h2 className="text-2xl font-bold text-[#ffffff]">Future Plan</h2>
         <p className="text-[#A4A4A4] leading-relaxed">{projectFeaturePlane}</p>
       </section>
 
       {/* Links */}
-      <section className="space-y-4">
+      <section className="space-y-4 lg:pl-4">
         <h2 className="text-2xl font-bold text-[#ffffff]">Project Links</h2>
         <div className="flex flex-col sm:flex-row gap-4 text-sm">
           <Link
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#6000fa] text-white px-4 py-2 rounded shadow border-0"
+            className="bg-[#6000fa] text-white px-4 py-2 rounded shadow border-0 text-center"
           >
             🔗 Live Site
           </Link>
@@ -121,7 +121,7 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
             href={githubClient}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#bdacff] text-[#0e051a] px-4 py-2 rounded shadow"
+            className="bg-[#bdacff] text-[#0e051a] px-4 py-2 rounded shadow text-center"
           >
             💻 GitHub Client
           </Link>
@@ -129,7 +129,7 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
             href={githubServer}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#bdacff] text-[#0e051a] px-4 py-2 rounded shadow"
+            className="bg-[#bdacff] text-[#0e051a] px-4 py-2 rounded shadow text-center"
           >
             🗄️ GitHub Server
           </Link>

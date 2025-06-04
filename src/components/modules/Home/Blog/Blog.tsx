@@ -54,7 +54,9 @@ const Blog = () => {
         </div>
         {/* End Text Section */}
 
-        <BlogCard />
+        <div className="lg:pl-20">
+          <BlogCard />
+        </div>
 
         {/* end blog card */}
 
