@@ -5,7 +5,7 @@ import Education from "@/components/modules/Home/Education/Education";
 import Header from "@/components/modules/Home/Header";
 // import { MyJourney } from "@/components/modules/Home/MyJourney/MyJourney";
 import PoweredBy from "@/components/modules/Home/PoweredBy/PoweredBy";
-import Project from "@/components/modules/Home/Project/Project";
+// import Project from "@/components/modules/Home/Project/Project";
 import Skills from "@/components/modules/Home/Skills/Skills";
 // import Testimonials from "@/components/modules/Home/Testimonials/Testimonials";
 
@@ -18,7 +18,7 @@ const HomePage = () => {
       <Skills />
       <Education />
       <Blog />
-      <Project />
+      {/* <Project /> */}
       {/* <MyJourney /> */}
       {/* <Testimonials /> */}
       <Contact />
