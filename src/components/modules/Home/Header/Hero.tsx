@@ -3,7 +3,6 @@ import { ExternalLink, Send } from "lucide-react";
 import Link from "next/link";
 import { TextEffect } from "../../../../../components/motion-primitives/text-effect";
 import { Meteors } from "@/components/magicui/meteors";
-
 import HighLightText from "@/components/ui/hero-highlight";
 
 const Hero = () => {
