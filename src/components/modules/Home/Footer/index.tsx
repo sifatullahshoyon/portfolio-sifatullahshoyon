@@ -35,8 +35,8 @@ const Footer = () => {
               <Image
                 src={logo}
                 alt="logo"
-                width={250}
-                height={5}
+                width={200}
+                height={200}
                 placeholder="blur"
                 loading="lazy"
                 blurDataURL="all"

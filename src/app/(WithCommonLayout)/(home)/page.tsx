@@ -7,7 +7,7 @@ import { MyJourney } from "@/components/modules/Home/MyJourney/MyJourney";
 import PoweredBy from "@/components/modules/Home/PoweredBy/PoweredBy";
 import Project from "@/components/modules/Home/Project/Project";
 import Skills from "@/components/modules/Home/Skills/Skills";
-import Testimonials from "@/components/modules/Home/Testimonials/Testimonials";
+// import Testimonials from "@/components/modules/Home/Testimonials/Testimonials";
 
 const HomePage = () => {
   return (
@@ -20,7 +20,7 @@ const HomePage = () => {
       <Blog />
       <Project />
       <MyJourney />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </>
   );

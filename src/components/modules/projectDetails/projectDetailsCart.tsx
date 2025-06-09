@@ -1,7 +1,13 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Mousewheel,
+  Keyboard,
+  Autoplay,
+} from "swiper/modules";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -24,7 +30,11 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
   } = data;
 
   return (
-    <div className="relative px-4 py-10 max-w-7xl mx-auto space-y-12 bg-[#0e051a] text-[#ffffff]">
+    <div
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      className="relative px-4 py-10 max-w-7xl mx-auto space-y-12 bg-[#0e051a] text-[#ffffff]"
+    >
       {/* Title */}
       <h1 className="text-4xl font-extrabold text-[#bdacff] text-left lg:pl-4">
         {title}
@@ -40,7 +50,7 @@ const ProjectDetailsCart = ({ data }: { data: IProjectDetails }) => {
           keyboard={true}
           autoplay={{ delay: 3000, disableOnInteraction: true }}
           loop={true}
-          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
           className="mySwiper"
         >
           {images.map((img, index) => (

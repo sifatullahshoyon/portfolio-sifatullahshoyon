@@ -36,15 +36,17 @@ const Hero = () => {
             </span>
           </ShimmerButton>
         </Link>
-        <ShimmerButton
-          background="#bdacff"
-          shimmerColor="#0e051a"
-          className="shadow-2xl"
-        >
-          <span className="flex items-center gap-2 whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-[#0e051a] dark:from-white dark:to-slate-900/10 lg:text-lg font-open-sans">
-            Learn More <Send size={20} />
-          </span>
-        </ShimmerButton>
+        <Link href="/blog">
+          <ShimmerButton
+            background="#bdacff"
+            shimmerColor="#0e051a"
+            className="shadow-2xl"
+          >
+            <span className="flex items-center gap-2 whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-[#0e051a] dark:from-white dark:to-slate-900/10 lg:text-lg font-open-sans">
+              Learn More <Send size={20} />
+            </span>
+          </ShimmerButton>
+        </Link>
       </div>
       <Meteors number={20} />
     </section>
