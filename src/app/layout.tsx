@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins, Open_Sans } from "next/font/google";
 import "./globals.css";
 import AOSInitializer from "@/components/AOSInitializer";
+import { Toaster } from "@/components/ui/sonner";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} ${openSans.variable} antialiased`}>
         <AOSInitializer />
+        <Toaster richColors position="top-center" />
         {children}
       </body>
     </html>
