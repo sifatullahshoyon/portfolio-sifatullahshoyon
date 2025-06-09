@@ -22,7 +22,7 @@ const Skills = () => {
             smallText="Skills"
             largeTextColor="text-[#3a2a5e18]"
             smallTextColor="text-white"
-            largeTextSize="text-[60px] md:text-[100px] lg:text-[120px]"
+            largeTextSize="text-[40px] md:text-[80px] lg:text-[100px]"
             smallTextSize="text-lg md:text-2xl lg:text-[40px]"
           />
         </div>

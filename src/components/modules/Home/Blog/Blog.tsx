@@ -21,7 +21,7 @@ const Blog = () => {
 
       {/* Dot Pattern Background */}
 
-      {
+      {pathName !== "/blog" && (
         <DotPattern
           width={20}
           height={20}
@@ -32,7 +32,7 @@ const Blog = () => {
             "absolute inset-0 opacity-20 [mask-image:linear-gradient(to_bottom_right,white,transparent)]"
           )}
         />
-      }
+      )}
 
       {/* container */}
       <div className="container px-4 md:px-6 lg:px-16">
@@ -48,7 +48,7 @@ const Blog = () => {
             smallText="Blogs"
             largeTextColor="text-[#3a2a5e18]" // Subtle translucent purple for large text
             smallTextColor="text-white" // White for small text
-            largeTextSize="text-[60px] md:text-[100px] lg:text-[120px]" // Responsive text sizes
+            largeTextSize="text-[40px] md:text-[80px] lg:text-[100px]" // Responsive text sizes
             smallTextSize="text-lg md:text-2xl lg:text-[40px]" // Responsive text sizes
           />
         </div>
