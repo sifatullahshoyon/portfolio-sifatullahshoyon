@@ -1,5 +1,5 @@
 import Navbar from "./Navbar/Navbar";
-import Hero from "./Hero";
+// import Hero from "./Hero";
 
 export default function Header() {
   return (
@@ -25,7 +25,7 @@ export default function Header() {
 
       <div className="z-10 text-center px-4">
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
       </div>
     </section>
   );
